@@ -18,11 +18,11 @@ const isLeader = true;
 
 
 
-const isPassed = false;
+const isPassed = true;
 // if (isPassed === false)
     if (!isPassed) {
-        console.log('GO Now')
+        console.log('Yes')
     }
     else {
-        console.log('Thanks')
+        console.log('NO')
     }
