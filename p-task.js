@@ -57,9 +57,40 @@ else if (myReslt > 80 && myFdResult < 40) {
 }
 
 
+// 4th task 
+
 let OneNumber = 100;
 let twoNumber = 200;
 
 OneNumber > twoNumber ?
     console.log(OneNumber * 2) :
     console.log(OneNumber + twoNumber)
+
+
+
+
+// last task 
+
+let ticketPrice = 800;
+const student = false;
+let age = 52;
+
+
+if (age < 10) {
+    console.log('Free Ticket')
+}
+else if (student) {
+    // 50% dicount
+    const discount = ticketPrice * 50 / 100;
+    const payAmount = ticketPrice - discount;
+    console.log(payAmount)
+}
+else if (age > 50) {
+    // 15% discount 
+    const discount = ticketPrice * 15 / 100;
+    const payAmount = ticketPrice - discount ;
+    console.log(payAmount)
+}
+else{
+    console.log(ticketPrice)
+}
